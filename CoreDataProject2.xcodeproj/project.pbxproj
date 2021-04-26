@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA2FA2922637432100A38912 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FA2902637432100A38912 /* Singer+CoreDataClass.swift */; };
+		CA2FA2932637432100A38912 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FA2912637432100A38912 /* Singer+CoreDataProperties.swift */; };
 		CA87F64C26364C7E00FB36E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87F64B26364C7E00FB36E9 /* AppDelegate.swift */; };
 		CA87F64E26364C7E00FB36E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87F64D26364C7E00FB36E9 /* SceneDelegate.swift */; };
 		CA87F65026364C7E00FB36E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87F64F26364C7E00FB36E9 /* ContentView.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA2FA2902637432100A38912 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CA2FA2912637432100A38912 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CA87F64826364C7E00FB36E9 /* CoreDataProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA87F64B26364C7E00FB36E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA87F64D26364C7E00FB36E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		CA87F64A26364C7E00FB36E9 /* CoreDataProject2 */ = {
 			isa = PBXGroup;
 			children = (
+				CA2FA2902637432100A38912 /* Singer+CoreDataClass.swift */,
+				CA2FA2912637432100A38912 /* Singer+CoreDataProperties.swift */,
 				CA87F64B26364C7E00FB36E9 /* AppDelegate.swift */,
 				CA87F64D26364C7E00FB36E9 /* SceneDelegate.swift */,
 				CA87F64F26364C7E00FB36E9 /* ContentView.swift */,
@@ -149,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA87F64C26364C7E00FB36E9 /* AppDelegate.swift in Sources */,
+				CA2FA2932637432100A38912 /* Singer+CoreDataProperties.swift in Sources */,
 				CA87F65326364C7E00FB36E9 /* CoreDataProject2.xcdatamodeld in Sources */,
+				CA2FA2922637432100A38912 /* Singer+CoreDataClass.swift in Sources */,
 				CA87F64E26364C7E00FB36E9 /* SceneDelegate.swift in Sources */,
 				CA87F65026364C7E00FB36E9 /* ContentView.swift in Sources */,
 			);
